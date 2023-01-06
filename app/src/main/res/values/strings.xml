@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lab2 - Activity Solution</string>
+    <string name="app_name">Lab2 - Finished Product</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -43,7 +43,6 @@
         While moderate alcohol consumption is generally considered to be safe,
         excessive consumption can have negative effects on mental health and can worsen symptoms of mental health conditions.
     </string>
-    <string name="title_activity_nutrition_answer">NutritionAnswerActivity</string>
     <string name="links_to_films_about_mental_health">Links to videos about mental health</string>
     <string name="submit_answer">Submit Answer</string>
 </resources>
