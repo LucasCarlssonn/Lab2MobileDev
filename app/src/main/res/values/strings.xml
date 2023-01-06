@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Lab2 - Activity Solution</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="questions_fragment">Questions Fragment</string>
+    <string name="sleepQuestion"> How did you sleep last night?</string>
+    <string name="nutritionQuestion"> Have you eaten nutritious food today?</string>
+    <string name="stressQuestion"> Have you been stressed today?</string>
+    <string name="alcoholQuestion"> Have you been drinking a lot of alcohol today?</string>
+    <string-array name="cardItemTitles">
+        <item>Sleep</item>
+        <item>Nutrition</item>
+        <item>Stress</item>
+        <item>Alcohol</item>
+    </string-array>
+    <string-array name="cardItemDetails">
+        <item>"Press this card-view to answer a question about sleep"</item>
+        <item>"Press this card-view to answer a question about nutrition"</item>
+        <item>"Press this card-view to answer a question about stress"</item>
+        <item>"Press this card-view to answer a question about alcohol"</item>
+    </string-array>
+    <string name="analyzes_fragment">Analyzes Fragment</string>
+    <string name="home">Mental Health</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hyperlink1">1 - Introduction to mental health <a href="https://www.youtube.com/watch?v=-OAjfrhuwRk">Link to Video</a></string>
+    <string name="hyperlink2">2 - Sleep and mental health <a href="https://www.youtube.com/watch?v=98V1q5k8x5E">Link to Video</a></string>
+    <string name="hyperlink3">3 - Nutrition and mental health <a href="https://www.youtube.com/watch?v=xyQY8a-ng6g">Link to Video</a></string>
+    <string name="hyperlink4">4 - Stress and mental health <a href="https://www.youtube.com/watch?v=DxIDKZHW3-E">Link to Video</a></string>
+    <string name="hyperlink5">5 - Alcohol and mental health <a href="https://www.youtube.com/watch?v=hzcZd08PqSQ">Link to Video</a></string>
+    <string name="textview">
+        Sleep, nutrition, stress, and alcohol are all important factors that can impact mental health.
+        Getting enough quality sleep is essential for maintaining good mental health, as it allows the brain and body to rest and repair themselves.
+        A healthy and balanced diet can support mental health by providing the body and brain with the nutrients they need to function optimally.
+        Managing stress effectively is important for maintaining good mental health, as chronic stress can take a toll on emotional well-being.
+        Alcohol can also impact mental health.
+        While moderate alcohol consumption is generally considered to be safe,
+        excessive consumption can have negative effects on mental health and can worsen symptoms of mental health conditions.
+    </string>
+    <string name="title_activity_nutrition_answer">NutritionAnswerActivity</string>
+    <string name="links_to_films_about_mental_health">Links to videos about mental health</string>
+    <string name="submit_answer">Submit Answer</string>
+</resources>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "33856020331",
+    "project_id": "lab2-mobileml",
+    "storage_bucket": "lab2-mobileml.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33856020331:android:8fdf9dac3f5b37c3b0b62e",
+        "android_client_info": {
+          "package_name": "com.ebookfrenzy.lab2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33856020331-rf8bea1cjsac8m30qk9r4ltkvpkok8fo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9rZ7CZ4cF_N5jVrY6HOzuffZZOQGge0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33856020331-rf8bea1cjsac8m30qk9r4ltkvpkok8fo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33856020331:android:36957fd6834e0664b0b62e",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.codelabs.textclassification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33856020331-rf8bea1cjsac8m30qk9r4ltkvpkok8fo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9rZ7CZ4cF_N5jVrY6HOzuffZZOQGge0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33856020331-rf8bea1cjsac8m30qk9r4ltkvpkok8fo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
