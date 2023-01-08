@@ -41,7 +41,6 @@ class MainActivity : AppCompatActivity(),
         adapter.addFragment(HomeFragment())
         adapter.addFragment(QuestionsFragment())
         adapter.addFragment(AnalyzesFragment())
-        //adapter.addFragment(ClassificationFragment())
         binding.viewPager.adapter = adapter
         TabLayoutMediator(binding.tabLayout, binding.viewPager) {
                 tab, position ->
