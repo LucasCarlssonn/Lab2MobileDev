@@ -3,6 +3,7 @@ package com.ebookfrenzy.lab2.answerActivities
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.ebookfrenzy.lab2.databinding.ActivitySleepAnswerBinding
 
 class SleepAnswerActivity : AppCompatActivity() {
@@ -16,9 +17,13 @@ class SleepAnswerActivity : AppCompatActivity() {
         binding.buttonForResult.setOnClickListener {
             val data = Intent()
             val answer = binding.sleepAnswer.text.toString()
-            data.putExtra("sleepAnswer", answer)
-            setResult(RESULT_OK, data)
-            finish()
+            if (answer != "") {
+                data.putExtra("sleepAnswer", answer)
+                setResult(RESULT_OK, data)
+                finish()
+            } else {
+                Toast.makeText(this, "Please enter an answer", Toast.LENGTH_SHORT).show()
+            }
         }
 
     }
