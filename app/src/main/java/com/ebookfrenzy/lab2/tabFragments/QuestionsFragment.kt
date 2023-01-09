@@ -19,16 +19,10 @@ import com.ebookfrenzy.lab2.databinding.FragmentQuestionsBinding
 
 
 class QuestionsFragment: Fragment() {
-    private var param1: String? = null
-    private var param2: String? = null
     private var _binding: FragmentQuestionsBinding? = null
     private val binding get() = _binding!!
     private var layoutManager: RecyclerView.LayoutManager? = null
     private var adapter: RecyclerView.Adapter<RecyclerAdapter.ViewHolder>? = null
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

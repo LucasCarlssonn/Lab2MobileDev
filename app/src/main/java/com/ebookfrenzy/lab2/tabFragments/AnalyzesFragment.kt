@@ -116,6 +116,8 @@ class AnalyzesFragment : Fragment() {
         type: String) {
         for (i in results.indices) {
             val result = results[i]
+            Log.d("Result", result.label)
+            Log.d("Result", result.score.toString())
             if (result.score > 0.5) {
                 val label = result.label.toString().toInt()
                 Log.i("Label", label.toString())
