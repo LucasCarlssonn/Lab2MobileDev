@@ -10,13 +10,9 @@ import com.ebookfrenzy.lab2.tabFragments.HomeFragment
 import com.ebookfrenzy.lab2.tabFragments.QuestionsFragment
 import com.google.android.material.tabs.TabLayoutMediator
 
-class MainActivity : AppCompatActivity(),
-    HomeFragment.OnFragmentInteractionListener,
-    QuestionsFragment.OnFragmentInteractionListener,
-    AnalyzesFragment.OnFragmentInteractionListener{
+class MainActivity : AppCompatActivity(){
 
     private lateinit var binding: ActivityMainBinding
-    private var layoutManager: RecyclerView.LayoutManager? = null
     lateinit var adapter: TabPagerAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -47,8 +43,5 @@ class MainActivity : AppCompatActivity(),
             tab.text = tabNames[position]
         }.attach()
     }
-    override fun onFragmentInteraction(uri: Uri) {
-    }
-
 
 }

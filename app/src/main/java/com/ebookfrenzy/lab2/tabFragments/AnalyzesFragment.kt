@@ -242,8 +242,4 @@ class AnalyzesFragment : Fragment() {
         barChart?.invalidate()
     }
 
-    interface OnFragmentInteractionListener {
-        fun onFragmentInteraction(uri: Uri)
-    }
-
 }

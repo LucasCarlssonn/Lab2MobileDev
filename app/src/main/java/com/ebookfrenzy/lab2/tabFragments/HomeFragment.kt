@@ -47,9 +47,5 @@ class HomeFragment : Fragment() {
         _binding = null
     }
 
-    interface OnFragmentInteractionListener {
-        fun onFragmentInteraction(uri: Uri)
-    }
-
 
 }
