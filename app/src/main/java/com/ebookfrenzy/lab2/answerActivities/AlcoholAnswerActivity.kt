@@ -13,7 +13,6 @@ class AlcoholAnswerActivity : AppCompatActivity() {
     private lateinit var binding: ActivityAlcoholAnswerBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_alcohol_answer)
         binding = ActivityAlcoholAnswerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

@@ -13,7 +13,6 @@ class StressAnswerActivity : AppCompatActivity() {
     private lateinit var binding: ActivityStressAnswerBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_stress_answer)
         binding = ActivityStressAnswerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

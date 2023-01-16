@@ -13,7 +13,6 @@ class NutritionAnswerActivity : AppCompatActivity() {
     private lateinit var binding: ActivityNutritionAnswerBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_nutrition_answer)
         binding = ActivityNutritionAnswerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
